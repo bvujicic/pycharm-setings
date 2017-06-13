@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="base" type="PLAIN_TEXT" />
       <mapping pattern="prostoria" type="PLAIN_TEXT" />
@@ -10,6 +11,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
+      <mapping pattern="inventory" type="PLAIN_TEXT" />
       <mapping pattern=".temp" type="PLAIN_TEXT" />
       <mapping pattern="rebuild" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
