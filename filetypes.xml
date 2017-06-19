@@ -5,6 +5,7 @@
       <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="base" type="PLAIN_TEXT" />
+      <mapping pattern=".config" type="PLAIN_TEXT" />
       <mapping pattern="prostoria" type="PLAIN_TEXT" />
       <mapping pattern="nora_hosts" type="PLAIN_TEXT" />
       <mapping pattern="ci_hosts" type="PLAIN_TEXT" />
