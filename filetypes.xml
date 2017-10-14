@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern="Dockerfile-Redis" type="Dockerfile" />
+      <mapping pattern="Dockerfile-Django" type="Dockerfile" />
       <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="dummy" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
@@ -19,7 +21,6 @@
       <mapping pattern="rebuild" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="test_hosts" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="apt" type="PLAIN_TEXT" />
@@ -29,6 +30,7 @@
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="sqlite3" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
