@@ -1,17 +1,8 @@
 <application>
   <component name="XDebuggerSettings">
-    <data-views>
-      <sort-values>true</sort-values>
-    </data-views>
+    <data-views />
     <general>
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
-    <debuggers>
-      <debugger id="python">
-        <configuration>
-          <option name="watchReturnValues" value="true" />
-        </configuration>
-      </debugger>
-    </debuggers>
   </component>
 </application>
