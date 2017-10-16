@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="DOckerfile-Nginx" type="Dockerfile" />
       <mapping pattern="Dockerfile-Django" type="Dockerfile" />
+      <mapping pattern="Dockerfile-Postgres" type="Dockerfile" />
       <mapping pattern="Dockerfile-Nginx" type="Dockerfile" />
       <mapping pattern="Dockerfile-Redis" type="Dockerfile" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
