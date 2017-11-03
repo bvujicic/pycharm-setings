@@ -5,7 +5,6 @@
       <mapping pattern="Dockerfile-Redis" type="Dockerfile" />
       <mapping pattern="Dockerfile-Celery" type="Dockerfile" />
       <mapping pattern="Dockerfile-Django" type="Dockerfile" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="test_hosts" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".temp" type="PLAIN_TEXT" />
