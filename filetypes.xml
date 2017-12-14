@@ -6,6 +6,7 @@
       <mapping pattern="Dockerfile-Redis" type="Dockerfile" />
       <mapping pattern="Dockerfile-Celery" type="Dockerfile" />
       <mapping pattern="Dockerfile-Django" type="Dockerfile" />
+      <mapping pattern="my_hosts" type="PLAIN_TEXT" />
       <mapping pattern="test_hosts" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".temp" type="PLAIN_TEXT" />
@@ -21,7 +22,6 @@
       <mapping pattern="ci_hosts" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="private_key" type="PLAIN_TEXT" />
-      <mapping pattern="my_hosts" type="PLAIN_TEXT" />
       <mapping pattern=".gitgnore" type="PLAIN_TEXT" />
       <mapping pattern="nora_hosts" type="PLAIN_TEXT" />
       <mapping pattern="inventory" type="PLAIN_TEXT" />
@@ -35,6 +35,7 @@
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="sqlite3" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping pattern="gitlab-ci.yml" type="YAML" />
     </extensionMap>
   </component>
 </application>
