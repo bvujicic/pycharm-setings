@@ -9,6 +9,7 @@
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".temp" type="PLAIN_TEXT" />
       <mapping pattern="prostoria" type="PLAIN_TEXT" />
+      <mapping pattern="doc" type="PLAIN_TEXT" />
       <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="base" type="PLAIN_TEXT" />
