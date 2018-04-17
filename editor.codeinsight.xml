@@ -3,7 +3,4 @@
     <option name="REFORMAT_ON_PASTE" value="1" />
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
-  <component name="PythonFoldingSettings">
-    <option name="COLLAPSE_LONG_STRINGS" value="true" />
-  </component>
 </application>

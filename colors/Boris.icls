@@ -1,14 +1,15 @@
-<scheme name="Boris" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.25" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
+<scheme name="Boris" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-01-26T14:49:18</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2017.3.3.0.0</property>
+    <property name="modified">2018-02-07T11:26:44</property>
+    <property name="originalScheme">_@user_Monokai</property>
+  </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
-    <option name="FILESTATUS_MODIFIED" value="5391a0" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="INDENT_GUIDE" value="3b3a32" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
@@ -409,7 +410,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="fffaef" />
+        <option name="FOREGROUND" value="aabbe2" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -440,7 +441,6 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="75715e" />
@@ -484,7 +484,6 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -713,9 +712,10 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="6df7ff" />
+        <option name="FOREGROUND" value="e3e3ff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -891,11 +891,6 @@
         <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
-    <option name="OC.FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="a6e22e" />
-      </value>
-    </option>
     <option name="OC.KEYWORD">
       <value>
         <option name="FOREGROUND" value="f92672" />
@@ -994,6 +989,11 @@
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
+    <option name="PY.BRACES">
+      <value>
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
@@ -1002,7 +1002,7 @@
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="96f848" />
+        <option name="FOREGROUND" value="a6e22c" />
         <option name="BACKGROUND" value="272822" />
       </value>
     </option>
@@ -1013,8 +1013,7 @@
     </option>
     <option name="PY.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="ac9a58" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="cba13e" />
       </value>
     </option>
     <option name="PY.FUNC_DEFINITION">
@@ -1036,7 +1035,7 @@
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="20a7cb" />
+        <option name="FOREGROUND" value="4880db" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
@@ -1060,19 +1059,14 @@
         <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
-    <option name="PY.SELF_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="1e77d9" />
-      </value>
-    </option>
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
-    <option name="PY.STRING.U">
+    <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="6f9d97" />
+        <option name="FOREGROUND" value="a5f8ff" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
@@ -1475,6 +1469,12 @@
         <option name="FOREGROUND" value="ae81ff" />
       </value>
     </option>
+    <option name="XML_PROLOGUE">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_DATA">
       <value>
         <option name="FONT_TYPE" value="1" />
